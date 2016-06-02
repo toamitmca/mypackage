@@ -1,0 +1,19 @@
+{
+    "name": "mypackage/demo",
+    "description": "A simple yet awesome profiler for Laravel 4.",
+    "authors": [
+        {
+            "name": "Amit Kumar",
+            "email": "toamitmca@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+			"MyPackage\\Ank\\": "src/Ank"
+        }
+    },
+    "minimum-stability": "dev"
+}
